@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    margin: 0px;
+    position: relative;
+}
+.header img{
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+.nav {
+    display: grid;
+    grid-template-columns: 1fr  1.4fr 1fr;
+    background-color: #FFCC21;
+    
+}
+.nav__bar {
+    grid-area: 1 / 2 / 2 / 3;
+    list-style-type: none;
+    margin-top:0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+.nav__bar__item{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav__bar__item:hover{
+    background-color:white;
+}
+.footer{
+    height: 500px;
+    display: grid;
+    grid-template-columns:1fr  1.4fr 1fr ;
+    position: relative;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    position: absolute;
+    top: -100px;
+    left: 20px;
+    height: 80px;
+  }
+  .card hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: #40C4FF;
+  }
+  .title{
+    font-size: 13px;
+    font-family: Raleway;
+    font-style: italic;
+    color: #000000;
+}
+.dept{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #000000;
+}
+.address{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.content h1{
+    color: #000000;
+    margin-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.contact{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.content p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .vitae{
+      margin-bottom: 10px;
+  }
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in;
+  }
+  .btn:hover {
+    background-color: RoyalBlue;
+    transform: translate(2px,-2px);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    
+  }
+  .notice{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: arial;
+    width: 65%;
+    margin-top: 20px;
+    height: 300px;
+    margin-left: 20px;
+  }
+.head{
+    background-color: #57606F;
+    
+}
+.Notice_Board{
+ color:#FFFFFF ;
+ font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+}
+.body{
+    margin-bottom: 20px;
+}
